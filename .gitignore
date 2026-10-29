@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.local-python/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter and editor files
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Generated inference outputs (retain the small CSV/plot sample data)
+runs/**
+!runs/vehicle_counting/
+runs/vehicle_counting/**
+!runs/vehicle_counting/*.csv
+!runs/vehicle_counting/*.png
+!runs/vehicle_counting/test.jpg
+*.avi
+*.mp4
+!data/input/traffic.mp4
+data/raw/
+yolo11n.pt
+!yolo26n.pt
+
+# OS files
+.DS_Store
+Thumbs.db
